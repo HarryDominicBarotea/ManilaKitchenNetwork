@@ -1,0 +1,150 @@
+*{}
+
+.navbar{
+    position: sticky;
+}
+li, a { 
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: 26px;
+    color: #000000;
+    text-decoration: none;
+}
+.navbar-nav{
+    margin-left: 240px;
+    padding: 1.9% 0%;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.logo{
+    margin-left: 120px;
+}
+button{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #ff5100
+}
+button{ 
+    margin-left: 2px;
+    padding: 9px 25px; 
+    background-color: red;
+    border: none; 
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+   
+}
+.search-box{ /*search bar*/
+    position:absolute;
+    top: 50%;
+    left: 65%;
+    margin-left: 150px;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    height: 40px; 
+    border-radius: 50px;
+    padding: 10px; 
+    box-shadow: inset 4px 4px 2px rgba(126, 123, 123, 0.8) ;
+}
+.search-box:hover > .search-txt{
+    width: 120px;
+    padding: 0 6px;
+}
+.search-btn{
+    color:#FF0000;
+    float: right;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    transition: 0.4s; 
+    line-height: 20px;
+    width: 0px;
+}
+.Account_Login{
+    position: inherit;
+    margin-left: 200px;
+}
+.rightside{
+    color:rgb(0, 0, 0);
+    height: 1000px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.row{
+    font-family:'Courier New', Courier, monospace;
+}
+.foodlistings{
+    color:#FF0000;
+    font-size: 20px;
+    font-weight:bold;
+}
+.right{
+    margin-left: 200px;
+    margin-top: 200px
+}
+.wording{
+    margin-top: 430px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.sardines{
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 100px
+}
+ .c{
+    background-color: red;
+    padding: 9px 10px; 
+    margin-left: 250px;
+}
+.products{
+    margin-left: 215px;
+    margin-top:100px
+}
+.d{
+    background-color: red;
+    margin-left: 800px;
+}
+.loki{
+    color:#000000;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-left: 350px;
+    
+}
+.joke{
+    margin-top: 20px;
+}
+.please{
+    font-weight: bolder;
+}
+.footer{
+    margin-left: 200px;
+}
+.footlong{
+    margin-top: 70px; 
+}
+.footeri{
+    margin-top: 0;
+    margin-left: 30px;
+}
+.line{
+    color:#FF0000;
+    border-top: #FF0000;
+  
+}
