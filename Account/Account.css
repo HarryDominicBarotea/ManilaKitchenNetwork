@@ -1,0 +1,290 @@
+.navbar{
+    position: sticky;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(C:\Users\irras\Desktop\2ISA_2ndTerm\ICS2608Prog\workspace\Manila-Kitchen\Accounts3);
+}
+li, a { 
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: 26px;
+    color: black;
+    text-decoration: none;
+}
+.navbar-nav{
+    margin-left: 100px;
+    padding: 1.9% 0%;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.logo{
+    margin-left: 120px;
+}
+button{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #ff5100
+}
+button{ 
+    margin-left: 2px;
+    padding: 5px 15px; 
+    background-color: red;
+    border: none; 
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+   
+}
+.search-box{ /*search bar*/
+    position:absolute;
+    top: 50%;
+    left: 1018px;
+    margin-left: 59px;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    height: 40px; 
+    border-radius: 50px;
+    padding: 10px; 
+    box-shadow: inset 4px 4px 2px rgba(126, 123, 123, 0.8) ;
+}
+.search-box:hover > .search-txt{
+    width: 260px;
+    padding: 0 6px;
+}
+.search-btn{
+    color:#FF0000;
+    float: right;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    transition: 0.4s; 
+    line-height: 20px;
+    width: 0px;
+}
+.Account_Login{
+    position: inherit;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+.line{
+    border-top: solid red 2px;
+}
+.wrapper{
+    position: absolute;
+    margin-left: 30px;
+}
+.cont1{
+    border: solid red 2px;
+}
+.logo1{
+    height: 80px;
+    width: 100px;
+    margin-top: -70px;;
+}
+
+.prof{
+    position: sticky;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-left: -10px;
+    border-bottom: solid red 2px;
+    max-width: 15%;
+}
+.un{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ea{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: red;
+}
+.gmail{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.ad{
+    margin-bottom: 10px;   
+    color: red;
+}
+#adr{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#switch{
+    margin-top: -340px;
+    margin-left: 260px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 250px;
+}
+#ch{
+    margin-top: -310px;
+    margin-left: -490px;
+    margin-bottom: 250px;
+}
+#deets{
+    margin-top: -250px;
+    margin-bottom: 250px;
+    margin-left: -190px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#dtbody{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: -500px;
+    margin-top: -190px;
+    margin-bottom: 110px;
+    border: solid red 2px;
+    border-bottom: none;
+}
+#subs{
+   font-size: 25px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
+   margin-top: -20px;
+   margin-bottom: 20px;
+}
+#php{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 45px;
+    color: red;
+    margin-left: -300px;
+    margin-top: -100px;
+}
+#tb{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: -401px;
+    margin-top: 30px;
+    border: solid red 2px;
+}
+#two{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 45px;
+    color: red;
+    margin-left: 150px;
+}
+.oh{
+    margin-left: 310px;
+    margin-top: 10px;
+}
+
+.container2{
+    margin-top: -10px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2{
+    margin-left: 50px;
+    position: flex;
+    width: 270px;
+    height: 480px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px gray;
+}   
+
+.text2{
+    margin:auto;
+    padding: 21px;
+    padding-left: 85px;
+    background-color: red;
+    border: none;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    font-weight: lighter;
+}
+.text{
+    margin:auto;
+    padding: 21px;
+    padding-left: 95px;
+    background-color: red;
+    border: none;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    font-weight: lighter;
+}
+
+.dbody2{
+    padding: 35px;
+    font-size: -50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: red;
+}
+
+.card-button-parent{
+    display: flex;
+    align-items: flex-end;
+    color:black;
+}
+
+.cbtn {
+    margin-top: 3px;
+    padding: 20px;
+    color:WHITE;
+    font-weight: bolder;
+    margin-left: 60px;
+}
+
+.vbtn {
+    color: white;
+    font-weight: bolder;
+    margin-left: 60px;
+}
+
+.cbtn:hover{
+    background-color: #ff5100;
+    font-size: larger;
+}
+#a{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.body{
+    display: grid;
+    position: absolute;
+    margin-top: 108px;
+}
+.container{
+    position: fixed;
+    margin-left: 720px;
+    margin-top: 100px;
+}
