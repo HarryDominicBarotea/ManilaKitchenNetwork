@@ -1,0 +1,180 @@
+.navbar{
+    position: sticky;
+}
+li, a { 
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.navbar-brand{
+    margin-left: -40px;
+    margin-top: -80;
+    
+}
+.navbar-nav{
+    margin-left: 100px;
+    padding: 1.9% 0%;
+}
+.nav-item{
+    margin-left: 30px;
+    margin-bottom: 80px;
+    font-size: 26px;
+   
+}
+.logo{
+    margin-left: 120px;
+}
+button{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #ff5100
+}
+button{ 
+    margin-left: 2px;
+    padding: 5px 15px; 
+    background-color: red;
+    border: none; 
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+
+}
+.search-box{ search bar/
+    position:absolute;
+    top: 50%;
+    left: 1018px;
+    margin-left: 200px;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    height: 40px; 
+    border-radius: 50px;
+    padding: 10px; 
+    box-shadow: inset 4px 4px 2px rgba(126, 123, 123, 0.8) ;
+    margin-top: 20px;
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-btn{
+    color:#FF0000;
+    float: right;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    transition: 0.4s; 
+    line-height: 20px;
+    width: 0px;
+}
+.Account_Login{
+    position: inherit;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+hr{
+    border-top: solid red 2px ;
+    margin-top: -100;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(C:\Users\Vj Arellano\Desktop\Programming\Vs demo\Payment);
+}
+.pm{
+    font-size: 40px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 60px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.ffb{
+    font-size: 30px;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 550px;
+    color: red;
+    font-weight: bold;
+    
+    font-family: Roboto;
+}
+.field{
+    margin-left: 280px;
+    margin-top: -200px;
+    z-index: 1;
+    position: absolute;
+    
+}
+.date{
+    margin-left:850px;
+    margin-top: -400px;
+    position: absolute;
+
+}
+.pay{
+    margin-left:900px;
+    margin-top: -200px;
+    width: 170px;
+    height: 60px;
+    font-family: Roboto;
+    font-size: 30px;
+}
+.Pp{
+    margin-top: 80px;
+    margin-left: 40px;
+
+}
+.Ae{
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+.Mc{
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+input[type=number]{
+    font-size: 20px;
+    font-family: Roboto;
+
+
+}
+input[type=text]{
+    font-size: 20px;
+    font-family: Roboto;
+
+}
+input[type=password]{
+    font-size: 20px;
+    font-family: Roboto;
+
+}
+input[type=date]{
+    font-size: 20px;
+    font-family: Roboto;
+
+}
+.twt{
+    margin-top:430px;
+    left: 10px;
+    bottom: 0;
+    position:absolute;
+    padding: 20px 0;
+}

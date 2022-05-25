@@ -1,0 +1,335 @@
+*{}
+
+.navbar{
+    position: sticky;
+}
+li, a { 
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: 26px;
+    color: #000000;
+    text-decoration: none;
+}
+.navbar-nav{
+    margin-left: 240px;
+    padding: 1.9% 0%;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.logo{
+    margin-left: 120px;
+}
+button{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #ff5100
+}
+button{ 
+    margin-left: 2px;
+    padding: 9px 25px; 
+    background-color: red;
+    border: none; 
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+   
+}
+.search-box{ /*search bar*/
+    position:absolute;
+    top: 50%;
+    left: 65%;
+    margin-left: 150px;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    height: 40px; 
+    border-radius: 50px;
+    padding: 10px; 
+    box-shadow: inset 4px 4px 2px rgba(126, 123, 123, 0.8) ;
+}
+.search-box:hover > .search-txt{
+    width: 120px;
+    padding: 0 6px;
+}
+.search-btn{
+    color:#FF0000;
+    float: right;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    transition: 0.4s; 
+    line-height: 20px;
+    width: 0px;
+}
+.Account_Login{
+    position: inherit;
+    margin-left: 200px;
+}
+
+.banner{
+    width: 1000px;
+    
+}
+.fuz1{
+    font-family: Roboto;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.loc{
+    font-family: Roboto;
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+.man{
+    font-family: Roboto;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: -30px;
+    color: red;
+    font-weight: bold;
+}
+.rating{
+    font-family: Roboto;
+    font-size: 20px;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+    margin-top: -30px;
+    margin-left: -10px;
+    
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color:red; 
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color:red; 
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color:red;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: left;
+    background-color: white;
+    height: 90px;
+    width: 400px;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.bolpic{
+    width: 90px;
+    height: 90px;
+    margin-left: 295px;
+    margin-top: -40px;
+}
+.price{
+    font-family: Roboto;
+    font-size: 15px;
+    margin-top: -20px;
+}
+.plus{
+    margin-left: 200px;
+    position: absolute;
+    top: 50px;
+    font-weight: bold;
+    width: 10%px;
+    text-align: center;
+}
+.card2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: left;
+    background-color: white;
+    height: 90px;
+    width: 400px;
+    font-family: Roboto;
+    font-weight: bold;
+
+}
+.surf{
+    width: 90px;
+    height: 90px;
+    margin-left: 295px;
+    margin-top: -40px;
+}
+.price2{
+    font-family: Roboto;
+    font-size: 15px;
+    margin-top: -20px;
+
+}
+.plus2{
+    margin-left: 200px;
+    position: absolute;
+    top: 620px;
+    font-weight: bold;
+    width: 10%px;
+    text-align: center;
+}
+.pickup{
+    font-family: Roboto;
+    font-size: 30px;
+    color: red;
+
+
+}
+.ReceivingP{
+    font-family: Roboto;
+    font-size: 30px;
+    
+}
+.inc{
+    margin-top: 40px;
+    font-family: Roboto;
+    font-size: 30px;
+    color: red;
+    margin-left: 50px;
+    
+}
+.add{
+    margin-left: 70px;
+    font-family: Roboto;
+    font-size: 20px;
+}
+.num{
+    font-family: Roboto;
+    font-size: 20px;
+    margin-left: 150px;
+
+}
+.line2{
+    border: solid red 2px;
+    opacity: 100%;
+}
+.sub{
+    font-family: Roboto;
+    font-size: 20px;
+    color: red;
+    margin-left: 70px;
+    font-weight: bold;
+    
+
+}
+.num2{
+    font-family: Roboto;
+    font-size: 20px;
+    margin-left: 160px;
+
+}
+.total{
+    font-family: Roboto;
+    font-size: 20px;
+    margin-left: 70px;
+    font-weight: bold;
+
+}
+.num3{
+    font-family: Roboto;
+    font-size: 20px;
+    margin-left: 307px;
+    margin-top: -30px;
+}
+.checkout{
+    font-family: Roboto;
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 60px;
+    width: 250px;
+
+}
+.voucher{
+    font-family: Roboto;
+    font-size: 20px;
+    margin-top: 40px;
+    background-color: red;
+    height: 100px;
+    opacity: 20%;
+    margin-left: -35px;
+    
+}
+.vouch{
+    border-radius: 0;
+    font-family: Roboto;
+    font-weight: bold;
+    bottom: 10px;
+    position: absolute;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 30px;
+    
+
+}
+#p1{
+    margin-top: -100px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+
+}
+.logof{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    border:5px solid red;
+    margin-left: 950px;
+    margin-top: -320px;
+    position: absolute;
+    z-index: 1;
+}
+.vertical{
+    border-left: 30px solid grey;
+    opacity: 30%;
+    box-shadow: 0 10px 0px gray;
+    height: 270px;
+    margin-top: -205px;
+    margin-left: 1020px;
+
+}
+.twt{
+    margin-top:450px;
+    left: 10px;
+    bottom: 0;
+    position:absolute;
+    padding: 20px 0;
+}
+
