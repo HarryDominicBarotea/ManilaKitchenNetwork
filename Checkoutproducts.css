@@ -1,0 +1,449 @@
+.navbar{
+    position: sticky;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(C:\Users\irras\Desktop\2ISA_2ndTerm\ICS2608Prog\workspace\Manila-Kitchen\Accounts4);
+}
+li, a { 
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: 26px;
+    color: #000000;
+    text-decoration: none;
+}
+.navbar-nav{
+    margin-left: 100px;
+    padding: 1.9% 0%;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.logo{
+    margin-left: 120px;
+}
+button{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #ff5100
+}
+button{ 
+    margin-left: 2px;
+    padding: 5px 15px; 
+    background-color: red;
+    border: none; 
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+   
+}
+.search-box{ /*search bar*/
+    position:absolute;
+    top: 50%;
+    left: 1018px;
+    margin-left: 59px;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    height: 40px; 
+    border-radius: 50px;
+    padding: 10px; 
+    box-shadow: inset 4px 4px 2px rgba(126, 123, 123, 0.8) ;
+}
+.search-box:hover > .search-txt{
+    width: 260px;
+    padding: 0 6px;
+}
+.search-btn{
+    color:#FF0000;
+    float: right;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    transition: 0.4s; 
+    line-height: 20px;
+    width: 0px;
+}
+.Account_Login{
+    position: inherit;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+.line{
+    border-top: solid red 2px;
+}   
+
+
+.top{
+    margin-left: 50px;
+    font-size: 50px;
+    font-family:Roboto;
+    color: black;
+}
+
+.line2{
+    border-top: solid red 8px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 55% 30%;
+    font-family:Roboto;
+    font-size: 20px;
+    color: red;
+    margin-left: 90px;
+}
+#price{
+    font-size: 40px;
+    font-family:Roboto;
+    margin-left: 160px;
+}
+
+.text{
+    color: red;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 15px;
+    margin-left: 90px;
+    font-weight: bolder;
+    
+}
+#items{
+    color: red;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 55% 20% 30%;
+    font-family:Roboto;
+    font-size: 30px;
+    border-right: solid red 4px;
+    margin-top: 40px;
+    box-shadow:20px 20px 20pxrgba(126, 123, 123, 0.8)
+}
+
+#bg{
+    border-radius: 10px;
+    color: white;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.col-sm-2{
+    text-align: center;
+    font-size: 25px;
+}
+.price{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: red;
+}
+
+.wrapper2{
+    margin-top: 80px;
+}
+
+.background_1{
+    height: 40px;
+    width: 60px;
+}
+.vd{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: -190px;
+    margin-top: 100px;
+}
+#adrs{
+    position:absolute;
+    color: red;
+    margin-left: 200px;
+    font-family:'Coeurier New', Courier, monospac;
+    font-weight: bold;
+    margin-top: -25px;
+    font-size: 15px;
+}
+
+#da{
+    font-family:Roboto;
+    margin-left: -4px;
+    margin-top: -25px;
+    font-size: 20px;
+}
+
+#voucher{
+    margin-top: 20px;
+    max-width: 19%;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 19px;
+    background-color: red;
+    padding: 6px;
+}
+#txt{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: -13px;
+}
+
+#total{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 450px;
+    margin-right: -300px;
+}
+#m{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    color: red;
+}
+
+#bottom{
+    position: fixed;
+}
+
+#checkoutbtn{
+    margin-left: -20px;
+    padding: 13px;
+}.navbar{
+    position: sticky;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(C:\Users\irras\Desktop\2ISA_2ndTerm\ICS2608Prog\workspace\Manila-Kitchen\Accounts4);
+}
+li, a { 
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: 26px;
+    color: #000000;
+    text-decoration: none;
+}
+.navbar-nav{
+    margin-left: 100px;
+    padding: 1.9% 0%;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.logo{
+    margin-left: 120px;
+}
+button{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #ff5100
+}
+button{ 
+    margin-left: 2px;
+    padding: 5px 15px; 
+    background-color: red;
+    border: none; 
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+   
+}
+.search-box{ /*search bar*/
+    position:absolute;
+    top: 50%;
+    left: 1018px;
+    margin-left: 59px;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    height: 40px; 
+    border-radius: 50px;
+    padding: 10px; 
+    box-shadow: inset 4px 4px 2px rgba(126, 123, 123, 0.8) ;
+}
+.search-box:hover > .search-txt{
+    width: 260px;
+    padding: 0 6px;
+}
+.search-btn{
+    color:#FF0000;
+    float: right;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    transition: 0.4s; 
+    line-height: 20px;
+    width: 0px;
+}
+.Account_Login{
+    position: inherit;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+.line{
+    border-top: solid red 2px;
+}   
+
+
+.top{
+    margin-left: 50px;
+    font-size: 50px;
+    font-family:Roboto;
+    color: black;
+}
+
+.line2{
+    border-top: solid red 8px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 55% 30%;
+    font-family:Roboto;
+    font-size: 20px;
+    color: red;
+    margin-left: 90px;
+}
+#price{
+    font-size: 40px;
+    font-family:Roboto;
+    margin-left: 160px;
+}
+
+.text{
+    color: red;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 15px;
+    margin-left: 90px;
+    font-weight: bolder;
+    
+}
+#items{
+    color: red;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 55% 20% 30%;
+    font-family:Roboto;
+    font-size: 30px;
+    border-right: solid red 4px;
+    margin-top: 40px;
+    box-shadow:20px 20px 20pxrgba(126, 123, 123, 0.8)
+}
+
+#bg{
+    border-radius: 10px;
+    color: white;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.col-sm-2{
+    text-align: center;
+    font-size: 25px;
+}
+.price{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: red;
+}
+
+.wrapper2{
+    margin-top: 80px;
+}
+
+.background_1{
+    height: 40px;
+    width: 60px;
+}
+.vd{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: -190px;
+    margin-top: 100px;
+}
+#adrs{
+    position:absolute;
+    color: red;
+    margin-left: 200px;
+    font-family:'Coeurier New', Courier, monospac;
+    font-weight: bold;
+    margin-top: -25px;
+    font-size: 15px;
+}
+
+#da{
+    font-family:Roboto;
+    margin-left: -4px;
+    margin-top: -25px;
+    font-size: 20px;
+}
+
+#voucher{
+    margin-top: 20px;
+    max-width: 19%;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 19px;
+    background-color: red;
+    padding: 6px;
+}
+#txt{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: -13px;
+}
+
+#total{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 450px;
+    margin-right: -300px;
+}
+#m{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    color: red;
+}
+
+#bottom{
+    position: fixed;
+}
+
+#checkoutbtn{
+    margin-left: -20px;
+    padding: 13px;
+}
